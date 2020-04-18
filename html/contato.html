@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+        <link rel="icon" type="image/png" href="../img/Favicon.png">
+        <title>Covid-19 - Notícias</title>
+    </head>
+
+    <body>
+        <div id="container"><!--Inicio do container-->
+
+            <div id="topo"><!--Inicio do topo-->
+
+                <h1 id="logo">Coronavírus - Covid-19</h1><!--Titulo da página-->
+                
+                <ul id="navegacao"><!--inicio do menu-->
+
+                    <li>
+                        <a class="linkMenu" id="home" href="index.html">Página inicial</a>
+                    </li>
+
+                    <li>
+                        <a class="linkMenu" id="mais" href="mais.html">Saiba mais</a>
+                    </li>
+
+                    <li>
+                        <a class="linkMenu" id="contato" href="contato.html">Contato</a>
+                    </li>
+
+                    <li>
+                        <a class="linkMenu" id="sobre" href="sobre.html">Sobre o desenvolvedor</a>
+                    </li>
+                    
+                </ul><!--fim do menu-->
+    
+            </div><!--fim do topo-->
+
+            <div id="conteudo"><!--inicio conteudo-->
+
+                <h2 id="tituloContato">Contato</h2>
+
+                <form id="contato" action="https://formspree.io/mlewygjb" name="contact" method="POST"><!--inicio formulário-->
+
+                    <label>Nome:</label>
+                    <input type="text" name="name" />
+
+                    <label>Email:</label> 
+                    <input type="email" name="email" />
+
+                    <label>Mensagem: </label>
+                    <textarea name="message"></textarea>
+
+                    <button type="submit">Enviar</button>
+
+                </form><!--fim formulário-->
+            </div>
+
+                <div id="caixaRedeSocial"> <!--inicio rede solcial-->
+
+                    <a target="blank" href="https://github.com/rizidorio"> 
+                        <img id="logoGithub" src="../img/github-logo.png" width="100px">
+                    </a>
+
+                    <a target="blank" href="https://www.instagram.com/ricardoizidorio/?hl=pt-br">
+                        <img id="logoInstagram" src="../img/instagram-logo-12.png" width="120px">
+                    </a>
+
+                    <a target="blank" href="https://www.linkedin.com/in/ricardo-izidorio-ferreira/">
+                        <img id="logoLinkedin" src="../img/linkedin.png" width="100px">
+                    </a>
+
+                </div><!--fim rede social-->
+        </div><!--fim container-->
+
+        <div id="rodape"><!--inicio do rodapé-->
+            &copy; Copyright 2020 Covid-19 Notícias - <a id="sobre" href="sobre.html">Desenvolvido por Ricardo Izidorio Ferreira</a>
+        </div><!--fim do rodapé-->
+
+    </body>
+</html>

@@ -1,0 +1,294 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    background-color: white;
+}
+
+a { 
+    color: black;
+}
+
+i {
+    font-size: 12px;
+    font-style: italic;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 8px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+form {
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+input {
+    display: block;
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+textarea {
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+button {
+    font-size: 15px;
+}
+
+#container {
+    min-width: 750px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#sobre {
+    color: white;
+    text-decoration: none;
+}
+
+#topo {
+    background-image: url(../img/Coronavirus.jpg);
+    position: relative;
+	height: 15.4em;
+    min-height: 250px;
+    background-color: cadetblue;
+    margin-bottom: 20px;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+	padding: 0;
+    list-style: none;
+    background-color: cadetblue;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+#primeiro {
+    float: left;
+    width: 800px;
+    display: block;
+    padding-top: 20px; 
+    text-align: justify;
+}
+
+#imgNoticia1 {
+    margin-bottom: 20px;
+}
+
+#imgNoticia3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#rodape {
+    clear: both;
+    min-width: 750px;
+    max-width: 1200px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+#logo {
+    padding-left: 10px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: cadetblue 1px 2px 2px;
+    font-size: 40px;
+}
+
+#caixaRedeSocial {
+    width: 490px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#caixaRede {
+    width: 545px;
+    height: 80px;
+    
+    display: block;
+}
+
+#tituloContato {
+    padding-left: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#txtSobre {
+    text-align: center;
+}
+
+#imgPerfil{
+    display: flex; 
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px; 
+    text-align: justify;
+}
+
+#caixaSobre {
+    width: 1160px;
+    margin-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.linkMenu {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.titulo {
+    padding-left: 35%;
+}
+
+.subtitulo {
+    font-size: 12px;
+}
+
+.caixa {
+    float: right;
+    border: 1px solid lightgray;
+    box-shadow: darkgray 1px 2px 5px;
+    width: 361px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 4px 8px;
+}
+
+.linkNoticias{
+    color: black;
+    font-style: italic;
+    font-size: 13px;
+    float: right;
+}
+
+.caixaMais1 {
+    float: left;
+    border: 1px solid lightgray;
+    box-shadow: darkgray 1px 2px 5px;
+    width: 558px;
+    height: 200px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    padding: 4px 8px;
+}
+
+.caixaMais2 {
+    float: left;
+    border: 1px solid lightgray;
+    box-shadow: darkgray 1px 2px 5px;
+    width: 558px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 4px 8px;
+}
+
+
+
+.imgCaixaMais1 {
+    float: left;
+    margin-right: 30px;
+}
+
+#imgCaixaMais2 {
+    float: left;
+    padding-top: 40px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#imgCaixaMais3 {
+    float: left;
+    padding-left: 120px;
+    padding-top: 5px;
+}
+
+#txtCaixaMais1 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+#txtCaixaMais2 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#txtCaixaMais3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#txtCaixaMais4 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tituloCaixaMais2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tituloCaixaMais3 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#tituloCaixaMais4 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
