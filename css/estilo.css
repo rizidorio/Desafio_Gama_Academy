@@ -96,7 +96,7 @@ button {
 }
 
 #imgNoticia1 {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #imgNoticia3 {
@@ -152,7 +152,7 @@ button {
     text-align: center;
 }
 
-#imgPerfil{
+#imgPerfil {
     display: flex; 
     float: left;
     margin-top: 20px;
@@ -215,7 +215,7 @@ button {
     padding: 4px 8px;
 }
 
-.linkNoticias{
+.linkNoticias {
     color: black;
     font-style: italic;
     font-size: 13px;
@@ -243,8 +243,6 @@ button {
     margin-bottom: 30px;
     padding: 4px 8px;
 }
-
-
 
 .imgCaixaMais1 {
     float: left;
